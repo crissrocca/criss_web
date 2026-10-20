@@ -769,11 +769,7 @@ details p {
 /* cta */
 .cta {
   @apply relative grid overflow-hidden;
-  background: linear-gradient(90deg, #080f18 46%, rgba(8, 15, 24, 0) 60%), url('../img/movie_02.png');
   background-color: #080f18;
-  background-position: center right;
-  background-repeat: no-repeat;
-  background-size: contain;
   border: 16px solid whitesmoke;
   color: var(--dk-ink);
   border-radius: clamp(20px, 4vw, 56px);
@@ -781,6 +777,14 @@ details p {
   padding-left: 5rem;
   @apply gap-9;
   margin-inline: calc(var(--gutter) * -1);
+}
+@media (min-width: 992px) {
+  .cta {
+    background: linear-gradient(90deg, #080f18 46%, rgba(8, 15, 24, 0) 60%), url('../img/movie_02.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 .cta .label {
   color: var(--dk-muted);
