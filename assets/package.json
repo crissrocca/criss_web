@@ -5,5 +5,8 @@
   },
   "devDependencies": {
     "tailwindcss": "3.4.19"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
   }
 }
