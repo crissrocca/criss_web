@@ -770,6 +770,7 @@ details p {
 .cta {
   @apply relative grid overflow-hidden;
   background: linear-gradient(90deg, #080f18 46%, rgba(8, 15, 24, 0) 60%), url('../img/movie_02.png');
+  background-color: #080f18;
   background-position: center right;
   background-repeat: no-repeat;
   background-size: contain;
