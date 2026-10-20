@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" role="img" aria-labelledby="title">
+  <title id="title">Imagen de demostración 2</title>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#d8d0c3"/>
+      <stop offset="1" stop-color="#b6a38d"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="540" fill="url(#bg)"/>
+  <rect x="86" y="106" width="468" height="328" rx="18" fill="#f6f3ed"/>
+  <rect x="116" y="136" width="198" height="268" rx="10" fill="#8a6a33"/>
+  <circle cx="214" cy="254" r="56" fill="#e9edf0" opacity=".9"/>
+  <path d="m349 206 148 0M349 245h124M349 284h148M349 323h103" stroke="#52627a" stroke-width="14" stroke-linecap="round" opacity=".7"/>
+  <rect x="36" y="34" width="210" height="54" rx="27" fill="#fff" opacity=".85"/>
+  <text x="141" y="69" text-anchor="middle" fill="#0c1a2b" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">IMAGEN DEMO 2</text>
+</svg>

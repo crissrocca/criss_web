@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-labelledby="title">
+  <title id="title">CPT UI</title>
+  <rect x="4" y="7" width="40" height="34" rx="7" stroke="#fff" stroke-width="3"/>
+  <path d="M4 17h40" stroke="#fff" stroke-width="3"/>
+  <circle cx="11" cy="12" r="1.5" fill="#fff"/><circle cx="17" cy="12" r="1.5" fill="#fff"/><circle cx="23" cy="12" r="1.5" fill="#fff"/>
+  <path d="M13 27h22M13 34h15" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>

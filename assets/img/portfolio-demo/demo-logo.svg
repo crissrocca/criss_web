@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="title">
+  <title id="title">Logotipo de demostración</title>
+  <rect width="640" height="260" rx="24" fill="#e9edf0"/>
+  <circle cx="170" cy="130" r="62" fill="#8a6a33"/>
+  <path d="M141 130h58M170 101v58" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <text x="260" y="122" fill="#0c1a2b" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="3">LOGOTIPO</text>
+  <text x="260" y="164" fill="#52627a" font-family="Arial,sans-serif" font-size="22" letter-spacing="5">DEMO</text>
+</svg>
