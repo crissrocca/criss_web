@@ -74,30 +74,63 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "@id": "https://crissrocca.com/#criss-rocca",
-        "name": "Criss Rocca",
-        "url": "https://crissrocca.com/",
-        "jobTitle": "Desarrollador front-end sénior freelance",
-        "description": "Desarrollador front-end sénior freelance especializado en WordPress, WooCommerce, Shopify y desarrollo a medida.",
-        "email": "info@crissrocca.com",
-        "telephone": "+34629106212",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "ES"
-        },
-        "knowsAbout": [
-          "Desarrollo web",
-          "WordPress",
-          "WooCommerce",
-          "Shopify",
-          "PrestaShop",
-          "JavaScript",
-          "ACF/CPT",
-          "Optimización web",
-          "Mantenimiento web",
-          "Accesibilidad web",
-          "SEO técnico"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://crissrocca.com/#website",
+            "url": "https://crissrocca.com/",
+            "name": "Criss Rocca",
+            "inLanguage": "es-ES",
+            "publisher": {
+              "@id": "https://crissrocca.com/#criss-rocca"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://crissrocca.com/#webpage",
+            "url": "https://crissrocca.com/",
+            "name": "Desarrollador front-end sénior freelance | Criss Rocca",
+            "description": "Desarrollador front-end sénior freelance con más de 15 años de experiencia. WordPress, WooCommerce, Shopify y desarrollo a medida con código limpio, veloz y accesible.",
+            "inLanguage": "es-ES",
+            "isPartOf": {
+              "@id": "https://crissrocca.com/#website"
+            },
+            "mainEntity": {
+              "@id": "https://crissrocca.com/#criss-rocca"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://crissrocca.com/#criss-rocca",
+            "name": "Christian Glez.",
+            "alternateName": "Criss Rocca",
+            "url": "https://crissrocca.com/",
+            "jobTitle": "Desarrollador front-end sénior freelance",
+            "description": "Desarrollador front-end sénior freelance con más de 15 años de experiencia. WordPress, WooCommerce, Shopify y desarrollo a medida con código limpio, veloz y accesible.",
+            "email": "info@crissrocca.com",
+            "telephone": "+34629106212",
+            "mainEntityOfPage": {
+              "@id": "https://crissrocca.com/#webpage"
+            },
+            "knowsAbout": [
+              "Desarrollo web",
+              "Desarrollo front-end",
+              "WordPress",
+              "WooCommerce",
+              "Shopify",
+              "PrestaShop",
+              "JavaScript",
+              "ACF Pro",
+              "Gutenberg",
+              "Optimización web",
+              "Accesibilidad web",
+              "SEO técnico",
+              "Datos estructurados Schema.org",
+              "Core Web Vitals",
+              "Migración de contenidos",
+              "Maquetación de newsletters"
+            ]
+          }
         ]
       }
     </script>
